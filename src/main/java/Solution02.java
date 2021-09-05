@@ -8,6 +8,10 @@ import java.util.Scanner;
 public class Solution02 {
 
     public static void main(String[ ] args) {
+        //print "What is the input string? "
+        //add user input to variable string
+        //add built-in count function with for loop
+        //print the output including variable string
         Scanner input = new Scanner(System.in);
         System.out.println("What is the input string? ");
         String string = (input.nextLine());
